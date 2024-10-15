@@ -25,6 +25,10 @@
     box-sizing: border-box;
 }
 
+.main p{
+    margin-bottom: 10px;
+}
+  
 
 body {
     font-family: MedievalSharp,cursive!important;
@@ -40,6 +44,10 @@ header {
     width: 100%;
     position: fixed;
     z-index: 10;
+}
+
+select {
+    background-color: var(--bs-dark);
 }
 
 /*Cartas/cuadrados */
@@ -99,10 +107,43 @@ header {
     margin-bottom: 2rem
 }
 
+
 /*Barras de navegación*/
 .nav {
     background-color: var(--bs-navbar-bg);
     position: fixed;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bs-navbar-bg);
+}
+
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    color: var(--bs-light);
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.nav ul ul {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    display: none;
+}
+.nav ul ul li {
+    display: block;
+}
+
+.nav li:hover ul {
+    display: block;
+}
+.nav ul ul li a:hover {
+    background-color: var(--bs-navbar-color);
 }
 
 .nav-right {

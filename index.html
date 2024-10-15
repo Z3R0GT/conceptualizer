@@ -39,35 +39,43 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="Conceptualizer">
         <meta property="og:description" content="Un portafolio personal y también centro para mis diferentes proyectos/comunidades, date un vistazo a lo más random del internet">
-        <meta property="og:image" content="./assets/img/ico.png">
-        <meta property="og:logo" content="./assets/img/ico.png">
+        <meta property="og:image" content="https://conceptualizer.sytes.net/assets/img/ico.png">
+        <meta property="og:logo" content="https://conceptualizer.sytes.net/assets/img/ico.png">
 
         <!--twitter-->
         <meta property="twitter:domain" content="conceptualizer.sytes.net">
         <meta property="twitter:url" content="https://conceptualizer.sytes.net/">
         <meta     name="twitter:title" content="Conceptualizer">
         <meta     name="twitter:description" content="Un portafolio personal y también centro para mis diferentes proyectos/comunidades, date un vistazo a lo más random del internet">
-        <meta     name="twitter:image" content="./assets/img/ico.png">
+        <meta     name="twitter:image" content="https://conceptualizer.sytes.net/assets/img/ico.png">
     </head>
 
     <!--Cabezera de navegación-->
     <header>
         <div class="container-fluid px-3">
             <div class="container-fluid px-4">
-                <ul class="nav nav-left nav-pills my-auto justify-content-center text-center py-1 px-1 shadow rounded-bottom-5">
-                    <li >
-                        <a href="#" class="navbar-brand mx-auto" >
-                            <img src="./assets/img/ico.png" alt="Pagina principal" width="45" height="45">
-                        </a>
-                    </li>
-                    <li class="nav-item my-auto">
-                        <a href="#proyects" class="nav-link px-3">Proyectos</a>
-                    </li>
-                    <li class="nav-item my-auto">
-                        <a href="#about" class="nav-link px-3">Sobre mi</a>
-                    </li>
-                </ul>
-                <ul class="nav nav-right nav-pills my-auto justify-content-center text-center py-1 px-1 shadow rounded-bottom-5">
+                <nav class="nav nav-left nav-pills my-auto justify-content-center text-center py-1 px-4 shadow rounded-bottom-5">
+                    <ul class="py-0.2">
+                        <li>
+                            <a href="#" class="navbar-brand mx-auto" >
+                                <img src="./assets/img/ico.png" alt="Pagina principal" width="45" height="45">
+                            </a>
+                        </li>
+                        <li class="nav-link my-auto py-2 px-2">
+                            <a href="#">Proyectos</a>
+                            <ul class="shadow rounded-bottom-5">
+                                <li><a class="nav-link px-3" href="./project/vop/index.html">VOP</a></li>
+                                <li><a class="nav-link px-3" href="https://github.com/Z3R0GT/WC">WC</a></li>
+                                <li><a class="nav-link px-3 rounded-bottom-5" href="https://github.com/Z3R0GT/DocWriter">DocWriter</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item my-auto px-2">
+                            <a href="#about" class="nav-link px-3">Sobre mi</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <ul class="nav nav-right nav-pills my-auto justify-content-center text-center py-3 px-4 shadow rounded-bottom-5">
                     <li class="nav-item my-auto">
                         <!--TODO: Crear html para las actualizaciones del sitio web-->
                         <a href="#update" class="nav-link px-3">Actualizaciones</a>
@@ -84,52 +92,142 @@
         <div>
             <section class="contenido wrapper">
                 <!--Imagenes a mostrar-->
-                <div class="container nav-left">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="./assets/img/desfile-autos-deportivos-o-carrera-carretera_114579-4052.webp">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/img/dibujos-de-carros.webp">
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="./project/vop/index.html" class="navbar-brand mx-auto">                                
-                                    <img src="./assets/img/Y1SpxuwQQKO4DjgLkEOd.webp" alt="Virtual Object Procces">
-                                </a>
-                            </div>
-                            
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-                <div class="contenido wrapper" style="display: contents">
-                    <h1 data-aos="fade-in" data-aos-duration="1500">Proyectos recientes</h1>
-                    <p data-aos="fade-in" data-aos-duration="3000"> 
-                        Se ha tenido un largo camino con VOP, pero sigue siendo
-                        algo pequeño respecto a los demas proyectos
-                    </p>
-                    <div class="card card-custom h-100"  
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
-                        <div class="card-body">
-                            <div class="card-tittle">
-                                <h1 class="neon-text">Contacto</h1>
-                                <hr class="my-4 neon-border">
-                                <h3>Correo</h3>
-                                    <a href="mailto: contac.es.z3r0.gt@gmail.com" class="social-links">
-                                        <i class="fa-solid fa-code"></i>
-                                        contac.es.z3r0.gt@gmail.com
-                                    </a>
-                                <h3>GitHub</h3>
-                                    <a href="https://github.com/Z3R0GT" class="social-links">
-                                            <i class="fa-brands fa-github"></i>
-                                            --Visitar--
-                                    </a>
+                
+                <div class="main" style="display: contents;">
+                    <div data-aos="zoom-in">                    
+                        <div class="main container" style="float: left;">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./assets/img/desfile-autos-deportivos-o-carrera-carretera_114579-4052.webp">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/img/dibujos-de-carros.webp">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="./project/vop/index.html" class="navbar-brand mx-auto">                                
+                                            <img src="./assets/img/Y1SpxuwQQKO4DjgLkEOd.webp" alt="Virtual Object Procces">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
+                        <div>
+                            <h1>¿Que hacemos aqui?</h1>
+                            <p> 
+                                Bueno... basicamente es un blog para cualquier cosa, proyectos, juegos, comunidades
+                                no me gusta hablar de politica o cosas locas como esa, pero quizas existe una poco de opnión personal aqui y alla
+                            </p>
+                            <p>
+                                NOTA: en el internet tengo dos nombres... Z3R0_GT y OFFZ3R0 (actualmente uso el segundo)
+                            </p>
+                            <div class="card card-custom h-100"  
+                                data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="card-tittle">
+                                        <h1 class="neon-text">Contacto</h1>
+                                        <hr class="my-4 neon-border">
+                                        <h3>Correo</h3>
+                                            <a href="mailto: contac.es.z3r0.gt@gmail.com" class="social-links">
+                                                <i class="fa-solid fa-code"></i>
+                                                contac.es.z3r0.gt@gmail.com
+                                            </a>
+                                        <h3>GitHub</h3>
+                                            <a href="https://github.com/Z3R0GT" class="social-links">
+                                                    <i class="fa-brands fa-github"></i>
+                                                    --Visitar--
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <br>
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom" style="transform: scale(85%);">
+                        <table>
+                            <colgroup>
+                                <col style="width: 60%;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="main container">
+                                            <div class="about-me mt-4 fa-border">
+                                                <h2>¿Que hago?</h2>
+                                                <hr class="my-4 neon-border">
+                                                <p class="m-.5">
+                                                    Desarrollo cosas... un poco generico, quizas no estes 
+                                                    interesado en leer la biblia que tengo, pero en todo caso te lo resumo en que 
+                                                    me gusta matarme la cabeza buscando solicones creativas a diferentes programas solciones de Software
+                                                    u logica, actualmente estoy colaborando con <a href="https://rosesintheflames.com/">Roses in the flames</a>
+                                                    para desarrollar un motor de mods, con otra pequeña comunidad para desarrollar un programa para facilitar la escritura
+                                                    de paginas web (en el formate que se me da)... aunque <a href="https://www.creatureverse.net/credits.html">actualmente no estoy muy pendientes de sus actualizaciones</a> 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <colgroup>
+                                                <col style="width: 120%;">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="main container" style="width: 120%;">
+                                                            <div class="about-me mt-4 fa-border">
+                                                                <h2>Colaboraciones</h2>
+                                                                <hr class="my-4 neon-border">
+                                                                <p class="m-.5">
+                                                                    Usualemente me gusta proyectos medianos o pequeños, soy bastante resolutivo en ese sentido, creo.
+                                                                    <br>
+                                                                    actualmente estoy colaborando (como dije antes) con:
+                                                                    <br> 
+                                                                    1- <a href="https://rosesintheflames.com/">Roses In The Flames</a>
+                                                                    <br>
+                                                                    2- <a href="https://www.creatureverse.net/credits.html">creatureverse</a> 
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </td>                              
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="main container" style="width: 120%;">
+                                                            <div class="about-me mt-4 fa-border">
+                                                                <h2>Lenguajes</h2>
+                                                                <hr class="my-4 neon-border">
+                                                                <p class="m-.5">
+                                                                    Python es mi principal, estoy en proceso de aprender Django y Panda
+                                                                    <br>
+                                                                    Java es uno de mis favoritos, pero por temas de practicas en la escuela, 
+                                                                    no lo uso muy amenudo ultimamente, solo para proyectos privados
+                                                                    <br>
+                                                                    Algo de GDscript (lenguaje de programación para el motor Godot)
+                                                                    <br>
+                                                                    He hecho un par de proyectos en godot <a href="https://github.com/Z3R0GT/DragonProyectName">(por ejemplo)</a>
+                                                                </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div>
+                        <p>Algo corto para el internet, mucho más en el futuro!</p>
+                    </div>
+
                 </div>
+
             </section>
         </div>
 
